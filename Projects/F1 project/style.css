@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+.pimg1 {
+  background-image: url(images/F1\ logo\ background.png);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(images/image9.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(images/image6.jpg);
+  min-height: 400px;
+}
+.pimg4 {
+    background-image: url(images/image8.jpg);
+    min-height: 100%;
+} 
+.pimg5 {
+  background-image: url(images/image5.jpg);
+  min-height: 100%;
+} 
+.pimg6 {
+  background-image: url(images/image7.jpg);
+  min-height: 100%;
+} 
+.pimg7 {
+  background-image: url(images/F1\ background2.png);
+  min-height: 100%;
+} 
+.pimg8 {
+  background-image: url(images/f1.1.avif);
+  min-height: 100%;
+}    
+.pimg9 {
+  background-image: url(images/win.jpg);
+  min-height: 100%;
+}    
+.pimg10 {
+  background-image: url(images/max.jpg);
+  min-height: 100%;
+}    
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4, 
+.pimg5,
+.pimg6,
+.pimg7,
+.pimg8,
+.pimg9,
+.pimg10{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align:center;
+  color:#ff1e00;
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.section {
+  padding: 20px 20px;
+  text-align: center;
+}
+.section-dark {
+  background-color: #ff1e00;
+  color: whitesmoke;
+}
+h2{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+button{
+  background-color:#ff1e00;
+  color: whitesmoke;
+  height:fit-content;
+  width:fit-content;
+  border-radius: 10px;
+  padding: 30px;
+  text-transform: uppercase;
+  transform-origin: 10px;
+}
+/*button hover*/
+button:hover{
+  background-color:#f6f4f1;
+  border: 2px #ff1e00;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  }
