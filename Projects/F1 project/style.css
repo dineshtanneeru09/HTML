@@ -58,16 +58,14 @@ body {
   position: relative;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .ptext {
   position: absolute;
   top: 90%;
   width: 100%;
   text-align:center;
-  color:#ff1e00;
+  color: #ff1e00;
   font-size: 80px;
   letter-spacing: 5px;
   text-transform: uppercase;
