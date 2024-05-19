@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Python Documentation</h1>
+        <ul>
+          <a href="#Introduction"><li>Introduction</li></a>
+          <a href="#What_you_should_already_know"><li>What you should already know</li></a>
+          <a href="#Syntax_and_semantics"><li>Syntax and semantics</li></a>
+          <a href="#Hello_world"><li>Hello world</li></a>
+          <a href="#Variables"><li>Variables</li></a>
+          <a href="#Statements"><li>Python statements</li></a>
+          <a href="#Methods"><li>Methods</li></a>
+          <a href="#Typing"><li>Typing</li></a>
+          <a href="#Libraries"><li>Libraries</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+            <p>
+                Python was invented in the late 1980] by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL,capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life", a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker. In January 2019, active Python core developers elected a five-member Steering Council to lead the project.
+            </p>
+          <p>
+            Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+          </p>
+
+          <p>
+            Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.
+          </p>
+          <ul>
+            <li>
+                Python 2.0 was released on 16 October 2000, with many major new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support.
+            </li>
+            <li>
+                Python 3.0, released on 3 December 2008, with many of its major features backported to Python 2.6.x and 2.7.x. Releases of Python 3 include the 2to3 utility, which automates the translation of Python 2 code to Python 3.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="What_you_should_already_know">
+        <h2>What you should already know</h2>
+        <article>
+          <p>Python is a computer programming language often used to build websites and software, automate tasks, and analyze data. Python is a general-purpose language, not specialized for any specific problems, and used to create various programmes.</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Data analysis and machine learning</li>
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about Python.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="Syntax_and_semantics">
+        <h2>Syntax and semantics</h2>
+        <article>
+          <p>
+            Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal.
+          </p>
+          <h3>Indentation</h3>
+          <p>
+            Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.[92] Thus, the program's visual structure accurately represents its semantic structure.[93] This feature is sometimes termed the off-side rule. Some other languages use indentation this way; but in most, indentation has no semantic meaning. The recommended indent size is four spaces.
+          </p>
+        </article>
+      </section>
+      <section id="Hello_world">
+        <h2>Hello world</h2>
+        <article>
+          To get started with writing JavaScript, open the Scratchpad and write
+          your first "Hello world" JavaScript code:
+          <code
+            >print('Hello, world!')
+          </code>
+
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!
+        </article>
+      </section>
+      <section id="Variables">
+        <h2>Variables</h2>
+        <article>
+          <p>
+            Python has no command for declaring a variable.
+            <br>
+            A variable is created the moment you first assign a value to it.
+          </p>
+          <code>
+            x = 5
+            y = "John"
+            print(x)
+            print(y)
+          </code>
+        </article>
+      </section>
+      <section id="Statements">
+        <h2>Python statements</h2>
+        <b>What is Statement in Python</b>
+        <article>
+          <p>
+            A Python statement is an instruction that the Python interpreter can execute. There are different types of statements in Python language as Assignment statements, Conditional statements, Looping statements, etc. The token character NEWLINE is used to end a statement in Python. It signifies that each line of a Python script contains a statement. These all help the user to get the required output.
+          </p>
+          <h3>Types of statements in Python?</h3>
+          <p>
+            The different types of Python statements are listed below:
+            <li>Multi-Line Statements</li>
+            <li>Python Conditional and Loop Statements</li>
+            <ul>
+              <ul>
+              <li>If-else</li>
+              <li>for loop</li>
+              <li>while loop</li>
+              <li>try-except</li>
+              <li>with statement</li>
+            </ul>
+          </ul>
+            <li>Python Expression statements</li>
+            <ul>
+              <ul>
+                <li>pass</li>
+                <li>del</li>
+                <li>return</li>
+                <li>import</li>
+                <li>continue</li>
+                <li>break</li>
+              </ul>
+            </ul>
+          </p>
+          <h3>Example</h3>
+          <p>
+            Statement in Python can be extended to one or more lines using parentheses (), braces {}, square brackets [], semi-colon (;), and continuation character slash (\). When the programmer needs to do long calculations and cannot fit his statements into one line, one can make use of these characters.
+          </p>
+          <code>
+            Declared using Continuation Character (\):
+            s = 1 + 2 + 3 + \
+            4 + 5 + 6 + \
+            7 + 8 + 9
+            
+            Declared using parentheses () :
+            n = (1 * 2 * 3 + 7 + 8 + 9)
+            
+            Declared using square brackets [] :
+            footballer = ['MESSI','NEYMAR','SUAREZ']
+
+            Declared using braces {} :
+            x = {1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9}
+            
+            Declared using semicolons(;) :
+            flag = 2; ropes = 3; pole = 4
+          </code>
+        </article>
+      </section>
+      <section id="Methods">
+        <h2>Methods</h2>
+        <article>
+          Methods on objects are functions attached to the object's class; the syntax instance.method(argument) is, for normal methods and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self (or this) in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby).[109] Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and type conversion.
+        </article>
+      </section>
+      <section id="Typing">
+        <h2>Typing</h2>
+        <article>
+          Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
+          <br>
+          <br>
+          Python allows programmers to define their own types using classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection.
+          <br>
+          <br>
+          Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of the new style.
+        </article>
+      </section>
+      <section id="Libraries">
+        <h2>Libraries</h2>
+        <article>
+          Python's large standard library provides tools suited to many tasks and is commonly cited as one of its greatest strengths. For Internet-facing applications, many standard formats and protocols such as MIME and HTTP are supported. It includes modules for creating graphical user interfaces, connecting to relational databases, generating pseudorandom numbers, arithmetic with arbitrary-precision decimals, manipulating regular expressions, and unit testing.
+          <br>
+          <br>
+          Some parts of the standard library are covered by specifications—for example, the Web Server Gateway Interface (WSGI) implementation wsgiref follows PEP 333-but most are specified by their code, internal documentation, and test suites. However, because most of the standard library is cross-platform Python code, only a few modules need altering or rewriting for variant implementations.
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
