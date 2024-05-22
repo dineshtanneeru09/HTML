@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+#coffee{
+display: grid;
+grid-template-columns: repeat(4,auto);
+}
+.coffee{
+    padding: 100px;
+ border-radius: 25px;
+}
+.coffee img{
+    height: 300px;
+}
