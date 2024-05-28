@@ -26,8 +26,6 @@ function displayData (data)
         coffee.classList.add('coffee')
         const title = document.createElement('h2')
         title.textContent = c.title;
-        const desc = document.createElement('p');
-        desc.textContent =c.description
         const image = document.createElement('img');
         image.src = c.image
         image.alt = c.title;
