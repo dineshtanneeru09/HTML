@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    background-color:white
+}
+body {
+    overflow-x: hidden;
+}
+#coffee{
+display: grid;
+grid-template-columns: repeat(3,auto);
+}
+.coffee{
+    padding: 100px;
+ border-radius: 25px;
+}
+.coffee img{
+    height: 300px;
+}
+h1
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:#D7CCC8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
